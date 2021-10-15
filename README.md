@@ -26,14 +26,35 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
 
+.map is used to transform each item and return them in a new array ex: transform an array of strings into an array of each strings length
+
+.forEach works as a forLoop and perform an action on every item that it goes through. ex: printing each value in the array
+
+.reduce helps to transform an array of elements into a single final value ex: adding up all numbers in an array into a sum
+
 2. Explain the difference between a callback and a higher order function.
+
+callback is a function passed as an argument to another function. this other function would be a higher order function because its receiving this function as an argument
 
 3. Explain what a closure is.
 
+a closure happens when a inner function reaches into an outer function to grab a value defined in the outer function and inner function will have access to that value even after the outer function finished its execution.
+
 4. Describe the four principles of the 'this' keyword.
+
+global
+
+new
+
+implicit
+
+explicit
+
+
 
 5. Why do we need super() in an extended class?
 
+because we need to trigger the constructor of the base class, for the instance to be initialized correctly
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions

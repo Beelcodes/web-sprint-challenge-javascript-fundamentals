@@ -17,6 +17,8 @@ myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀:
 
+// both functions are under the same scope so we can pass variables down but we can't pass them back up
+
 /* 🚀🚀🚀 Task 2: Counter 🚀🚀🚀 */
 /* Use summation to do the following:
     1. Receive a number 
@@ -248,10 +250,10 @@ class CuboidMakerTwo {
     );
   }
 }
-const cuboidTwo = new CuboidMakerTwo({ lenght: 4, height: 5, width: 5 });
+const cuboidTwo = new CuboidMakerTwo({ length: 4, height: 5, width: 5 });
 //🦄🦄🦄 Test your volume and surfaceArea methods by uncommenting the logs below: 🦄🦄🦄
-// console.log(cuboidTwo.volume()); // 100
-// console.log(cuboidTwo.surfaceArea()); // 130
+console.log(cuboidTwo.volume()); // 100
+console.log(cuboidTwo.surfaceArea()); // 130
 
 /* 🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑 */
 function foo() {
