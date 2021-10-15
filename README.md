@@ -42,15 +42,13 @@ a closure happens when a inner function reaches into an outer function to grab a
 
 4. Describe the four principles of the 'this' keyword.
 
-global
+global binding: when this is used without a . and we arent using .call .apply or .bind, this will be the global context
 
-new
+new binding: is used when you use a constructor function and the new keyword, and it belongs to that new object
 
-implicit
+implicit binding is when the dot notation is used to invoke the function.
 
-explicit
-
-
+explicit binding is when .call .apply or .bind are used on a function
 
 5. Why do we need super() in an extended class?
 
